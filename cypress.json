@@ -6,5 +6,10 @@
   "pluginsFile": "cypress/plugins/index.ts",
   "fixturesFolder": "cypress/fixtures",
   "baseUrl": "http://localhost:4200",
-  "video": false
+  "video": false,
+  "env": {
+    "E2E_USERNAME": "test@test.test",
+    "E2E_PASSWORD": "M1Ryl9n5"
+  },
+  "chromeWebSecurity": false
 }
